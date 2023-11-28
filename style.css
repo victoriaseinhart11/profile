@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(195, 248, 195);
+  color: rgb(50, 50, 50);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em;
+}
+
+ul {padding-bottom: 30px;
+
+     list-style: none;
+    padding-left: 0px;
+  }
+
+
+h1 { font-size: 30px;
+    font-family: 'Roboto', sans-serif;}
+h2, h3 { font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        }
+
+a {
+  background-color: lightslategray;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;}
+
+a:hover {background-color: grey;}
+
+img {height: 150px;
+  border-radius: 50%;}
+
+a { display: inline;
+    margin: 10px;}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+
+  text-align: center;
+  width: 50%;
+  background: white;
+  padding: 0px;
+  margin: 30px;
+  border: 1px solid lightgrey;
+
+  margin: 0 auto;
+}
+
+
+.card-no-background { text-align: center;
+  background-color: none;}
+
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
