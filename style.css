@@ -91,7 +91,7 @@ section .title {
 }
 
 section .title::before {
-  content: "";
+  content: " ";
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -118,6 +118,8 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
+
+
 }
 
 .navbar.sticky {
@@ -280,7 +282,7 @@ section .title::after {
   background: radial-gradient(#e1efff, white);
 }
 .about .title::after {
-  content: "—Who I Am ?—";
+  content: " ";
   text-overflow: ellipsis;
   display: -webkit-inline-box;
   -webkit-line-clamp: 3;
@@ -354,7 +356,7 @@ section .title::after {
 .services .title::after,
 .projects .title::after {
   background: #111;
-  content: "What I Provide ?";
+  content: " ";
 }
 
 .services .serv-content .card {
@@ -403,7 +405,7 @@ section .title::after {
   background: radial-gradient(#e1efff, white);
 }
 .skills .title::after {
-  content: "—What I Know ?—";
+  content: " ";
 }
 
 .skills .skills-content .column {
@@ -474,7 +476,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .line::before {
-  content: "";
+  content: " ";
   position: absolute;
   height: 100%;
   left: 0;
@@ -508,7 +510,7 @@ section .title::after {
 
 /*  Projects  */
 .projects .title::after {
-  content: "What I did ?";
+  content: " ";
 }
 
 .projects .carousel .card {
@@ -586,7 +588,7 @@ section .title::after {
 }
 
 .contact .title::after {
-  content: "—Get in Touch—";
+  content: " ";
 }
 
 .contact .contact-content .column {
